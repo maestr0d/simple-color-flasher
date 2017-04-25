@@ -1,0 +1,20 @@
+{
+  "name": "Random color flasher FREE",
+  "description": "Randomise all css colors on a page every tenth of a second.",
+	"version":"1",
+	"manifest_version":2,
+  "permissions": [
+    "activeTab", "webNavigation", "*://*/*"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "icons": { "16": "icon16.png",
+           "48": "icon48.png",
+          "128": "icon128.png" },
+  "browser_action": {
+    "default_title": "Random color flasher"
+  }
+
+}
